@@ -1,0 +1,17 @@
+[
+  {
+      "file_path": "ListNamesDragDropFilesHere.py",
+      "find_line": "print(filename.split('.')[0])",
+      "insert_line": "\n    print('\\nFilenames with Extensions:')\n    for arg in sys.argv[1:]:\n        print(os.path.basename(arg))\n"
+  },
+  {
+      "file_path": "ListNamesDragDropFilesHere.py",
+      "find_line": "# This comment is not necessary",
+      "delete_line": "# This comment is not necessary"
+  },
+  {
+      "file_path": "ListNamesDragDropFilesHere.py",
+      "find_line": "input(\"Press Enter to close...\")",
+      "modify_line": "input(\"Press any key to close...\")"
+  }
+]
